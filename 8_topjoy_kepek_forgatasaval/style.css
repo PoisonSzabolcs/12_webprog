@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/background.png) ;
+     user-select: none;
+     background-color: green;
+     background-size: cover;
+}
+
+
+
+.hatter-kep{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   height: 100vh;
+}
+
+#kupak{
+    width: 400px;
+}
+
+.szoveg-tarolo{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+
+}
+
+#szoveg{
+    text-align: center;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    z-index: 100000000;
+}
