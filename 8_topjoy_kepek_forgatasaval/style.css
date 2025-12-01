@@ -6,7 +6,11 @@
 
 body{
     background-image: url(./images/background.png) ;
-     user-select: none;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
      background-color: green;
      background-size: cover;
 }
@@ -14,14 +18,19 @@ body{
 
 
 .hatter-kep{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-   height: 100vh;
+   
+   position: absolute;
+}
+.tarolo{
+    height: 400px;
+    width: 250px;
+    position: relative;
 }
 
 #kupak{
-    width: 400px;
+    width: 250px;
+    height: 400px;
+    z-index: 0;
 }
 
 .szoveg-tarolo{
@@ -31,10 +40,12 @@ body{
     display: flex;
     justify-content: center;
     padding: 3rem;
-
+    vertical-align: middle;
+    align-items: center;
 }
 
 #szoveg{
+    
     text-align: center;
     overflow-wrap: break-word;
     font-weight: bold;
